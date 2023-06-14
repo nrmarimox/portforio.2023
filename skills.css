@@ -88,3 +88,29 @@ footer {
         font-size: 18px;
         padding-top: 10px;
 }
+
+
+
+
+
+
+@media (max-width: 1000px) {
+   .menu {
+        display: none;
+   }
+  
+   .content-top ,.content-under  {
+    display:block;
+   }
+   .box-1, .box-2,.box-3,.box-4 {
+    border: solid; 
+    height: 550px;
+    width: 80%;
+    margin: 50px  auto;
+    text-align: center;
+    }
+    .box-1 h3,.box-2 h3,.box-3 h3,.box-4 h3 {
+        width: 80%;
+    }
+
+}
